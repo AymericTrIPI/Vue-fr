@@ -16,9 +16,21 @@
 				ou avec un goûter réconfortant. Mais attention, vous verrez qu'il est
 				difficile de s'arrêter.
 			</p>
+			<p>
+				Vous êtes au café : {{ restaurantName }}
+			</p>
 			<footer class="footer">
 				<p>Copyright La belle vue 2020</p>
 			</footer>
 		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+		<script>
+			const app = new Vue({
+				el: '.app',
+				data: {
+					restaurantName: 'Alès Breizh'
+				}
+			})
+		</script>
 	</body>
 </html>
