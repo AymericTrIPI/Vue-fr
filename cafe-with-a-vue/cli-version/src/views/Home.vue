@@ -50,11 +50,6 @@ export default {
 			shoppingCart: "shoppingCart",
 			simpleMenu: "simpleMenu"
 		})
-	},
-	methods: {
-		addToShoppingCart(amount) {
-			this.shoppingCart += amount
-		}
 	}
 }
 </script>
